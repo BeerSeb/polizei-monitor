@@ -455,7 +455,7 @@ function sortData(){
     let va=a[sortCol]??'', vb=b[sortCol]??'';
     if(sortCol==='schweregrad'){ va=+va||0; vb=+vb||0; return (vb-va)*sortDir; }
     va=String(va).toLowerCase(); vb=String(vb).toLowerCase();
-    return va<vb?sortDir:va>vb?-sortDir:0;
+    return va<vb?-sortDir:va>vb?sortDir:0;
   });
 }
 
