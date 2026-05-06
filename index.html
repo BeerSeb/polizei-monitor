@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -289,7 +290,7 @@ tbody tr:hover td{background:rgba(59,130,246,.04)}
 // ─── State ───────────────────────────────────────────────────────────────────
 let allData=[], filtered=[], expandedRows=new Set();
 let sortCol='dateSort', sortDir=-1, page=1;
-const PER_PAGE=30;
+const PER_PAGE=99999; // Alle auf einer Seite
 let dataFrom='', dataTo='';
 
 // ─── Laden ───────────────────────────────────────────────────────────────────
@@ -303,6 +304,17 @@ async function init(){
     const dataRes = await fetch('data/incidents.json?_='+Date.now());
     if(!dataRes.ok) throw new Error('incidents.json nicht gefunden');
     allData = await dataRes.json();
+
+    // ── Duplikate entfernen (gleicher Titel + gleiches Datum) ──
+    const seen = new Set();
+    allData = allData.filter(p => {
+      const key = (p.dateSort||'') + '|' + (p.titel||'').slice(0,60) + '|' + (p.nr||'');
+      if (seen.has(key)) return false;
+      seen.add(key); return true;
+    });
+
+    // Standardsortierung: neueste zuerst
+    allData.sort((a,b) => (b.dateSort||'').localeCompare(a.dateSort||''));
 
     // Datumsgrenzen aus Daten ableiten
     dataFrom = allData.reduce((m,p)=>p.dateSort<m?p.dateSort:m, allData[0]?.dateSort||'');
@@ -490,11 +502,9 @@ function renderTable(){
     </tr>`;
   }).join('');
 
-  document.getElementById('pagination').style.display='flex';
-  document.getElementById('pageInfo').textContent=
-    `${Math.min(start+1,total)}–${Math.min(start+PER_PAGE,total)} von ${total} · Seite ${page}/${pages}`;
-  document.getElementById('prevBtn').disabled=page<=1;
-  document.getElementById('nextBtn').disabled=page>=pages;
+  document.getElementById('pagination').style.display='none';
+  document.getElementById('pageInfo').textContent=`${total} Vorfälle`;
+
 }
 
 function tog(i){ expandedRows.has(i)?expandedRows.delete(i):expandedRows.add(i); renderTable(); }
