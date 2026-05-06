@@ -451,10 +451,10 @@ function sortBy(col){
 
 function sortData(){
   filtered.sort((a,b)=>{
-    let va=a[sortCol]??'', vb=b[sortCol]??'';
-    if(sortCol==='schweregrad'){ va=+va||0; vb=+vb||0; return (vb-va)*sortDir; }
-    va=String(va).toLowerCase(); vb=String(vb).toLowerCase();
-    return va<vb?-sortDir:va>vb?sortDir:0;
+    if(sortCol==='schweregrad') return (+b[sortCol]-+a[sortCol])*sortDir;
+    const va=String(a[sortCol]??'').toLowerCase();
+    const vb=String(b[sortCol]??'').toLowerCase();
+    return va>vb?-sortDir:va<vb?sortDir:0;
   });
 }
 
