@@ -219,15 +219,6 @@ tbody tr:hover td{background:rgba(59,130,246,.04)}
     </select>
   </div>
   <div class="field">
-    <label>Kritikalität</label>
-    <select id="filterSev" onchange="applyFilters()">
-      <option value="">Alle</option>
-      <option value="3">Hoch</option>
-      <option value="2">Mittel</option>
-      <option value="1">Niedrig</option>
-    </select>
-  </div>
-  <div class="field">
     <label>Suche</label>
     <input type="text" id="searchbox" placeholder="Stichwort…" oninput="applyFilters()">
   </div>
@@ -241,8 +232,6 @@ tbody tr:hover td{background:rgba(59,130,246,.04)}
 <!-- Metriken -->
 <div class="metrics">
   <div class="metric blue"><div class="metric-label">Vorfälle</div><div class="metric-value" id="m-total">—</div><div class="metric-sub">angezeigt</div></div>
-  <div class="metric red"><div class="metric-label">Kritikalität Hoch</div><div class="metric-value" id="m-high">—</div><div class="metric-sub">Vorfälle</div></div>
-  <div class="metric amber"><div class="metric-label">Kritikalität Mittel</div><div class="metric-value" id="m-mid">—</div><div class="metric-sub">Vorfälle</div></div>
   <div class="metric teal"><div class="metric-label">Stadtteile</div><div class="metric-value" id="m-dist">—</div><div class="metric-sub">betroffen</div></div>
   <div class="metric green"><div class="metric-label">Gesamt im Datensatz</div><div class="metric-value" id="m-total-db">—</div><div class="metric-sub">Vorfälle</div></div>
 </div>
@@ -262,7 +251,6 @@ tbody tr:hover td{background:rgba(59,130,246,.04)}
         <th>Nr.</th>
         <th onclick="sortBy('kategorie')">Kategorie <span id="si-kategorie">↕</span></th>
         <th onclick="sortBy('ort')">Stadtteil / Ort <span id="si-ort">↕</span></th>
-        <th onclick="sortBy('schweregrad')">Kritikalität <span id="si-schweregrad">↕</span></th>
         <th>Originaltext</th>
         <th>Quelle</th>
       </tr></thead>
@@ -495,7 +483,6 @@ function renderTable(){
       <td class="nr-cell">${p.nr||'–'}</td>
       <td><span class="badge ${cc}">${esc(p.kategorie||'Sonstiges')}</span></td>
       <td style="font-size:12px;color:var(--text2)">${esc(p.ort||'–')}</td>
-      <td><span class="sev ${sevC[sev]}">${sevL[sev]}</span></td>
       <td>${tHtml}</td>
       <td>${p.link?`<a class="link-btn" href="${p.link}" target="_blank">PM ${artNr}</a>`:'–'}</td>
     </tr>`;
