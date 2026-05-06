@@ -304,6 +304,17 @@ def main():
     # Nach Datum sortieren (neueste zuerst)
     all_incidents.sort(key=lambda x: (x["dateSort"], x["time"]), reverse=True)
 
+    # Duplikate entfernen (gleicher Titel + Datum + Nr.)
+    seen = set()
+    deduped = []
+    for inc in all_incidents:
+        key = f"{inc.get('dateSort','')}|{inc.get('titel','')[:60]}|{inc.get('nr','')}"
+        if key not in seen:
+            seen.add(key)
+            deduped.append(inc)
+    all_incidents = deduped
+    print(f"  Nach Deduplizierung: {len(all_incidents)} Vorfälle")
+
     with open("data/incidents.json", "w", encoding="utf-8") as f:
         json.dump(all_incidents, f, ensure_ascii=False, indent=2)
 
