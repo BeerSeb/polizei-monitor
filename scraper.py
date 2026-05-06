@@ -16,8 +16,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Konfiguration ─────────────────────────────────────────────────────────────
-DAYS_BACK  = 500          # Wie viele Tage zurück scrapen
-MAX_ARTS   = 400          # Maximale Artikelanzahl pro Lauf
+DAYS_BACK  = 30          # Wie viele Tage zurück scrapen
+MAX_ARTS   = 80          # Maximale Artikelanzahl pro Lauf
 SLEEP_SEC  = 0.5         # Pause zwischen Requests
 
 BASE_URL = "https://www.polizei.bayern.de"
@@ -44,12 +44,6 @@ ANCHORS = sorted([
     ( 96662, datetime(2026, 1, 13)),
     ( 96203, datetime(2026, 1, 2)),
     ( 96156, datetime(2026, 1, 1)),
-    ( 93500, datetime(2025, 11, 1)),
-    ( 91000, datetime(2025, 9, 1)),
-    ( 88500, datetime(2025, 7, 1)),
-    ( 86000, datetime(2025, 5, 1)),
-    ( 83500, datetime(2025, 3, 1)),
-    ( 81000, datetime(2025, 1, 1)),
 ], key=lambda x: x[1])
 
 # ── Kategorisierung ───────────────────────────────────────────────────────────
@@ -146,8 +140,51 @@ def fetch(url):
         return None
 
 
+def get_urls_from_listing(from_date, to_date):
+    """Holt Artikel-URLs direkt von der Pressemitteilungs-Listenseite von polizei.bayern.de."""
+    print("Lese Pressemitteilungs-Listen von polizei.bayern.de…")
+    
+    base_list = "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/index.html"
+    pattern = re.compile(
+        r'href="(/aktuelles/pressemitteilungen/(\d{6})/index\.html)"'
+    )
+    
+    seen, urls = set(), []
+    id_from = interpolate_id(from_date) - 20
+    id_to   = interpolate_id(to_date)   + 20
+    
+    # Mehrere Listenseiten abrufen (Pagination)
+    for page_offset in range(0, 2000, 10):
+        page_url = f"{base_list}?start={page_offset}" if page_offset > 0 else base_list
+        html = fetch(page_url)
+        if not html:
+            break
+            
+        found_on_page = 0
+        for m in pattern.finditer(html):
+            art_id = int(m.group(2))
+            full_url = f"https://www.polizei.bayern.de{m.group(1)}"
+            if full_url not in seen and id_from <= art_id <= id_to:
+                seen.add(full_url)
+                urls.append(full_url)
+                found_on_page += 1
+        
+        print(f"  Seite offset={page_offset}: {found_on_page} neue Links")
+        
+        # Stoppen wenn keine neuen Links mehr oder wir zu weit in der Vergangenheit sind
+        if found_on_page == 0:
+            break
+        if len(urls) >= MAX_ARTS:
+            break
+            
+        time.sleep(0.3)
+    
+    print(f"  Listing: {len(urls)} Links gefunden")
+    return sorted(urls)
+
+
 def get_urls_from_telegram(from_date, to_date):
-    """Extrahiert polizei.bayern.de-Links aus dem Telegram-Kanal."""
+    """Extrahiert polizei.bayern.de-Links aus dem Telegram-Kanal (nur aktuelle ~50 Posts)."""
     print("Lese Telegram-Kanal…")
     html = fetch(TG_URL)
     if not html:
@@ -265,10 +302,19 @@ def main():
     print(f"  Zeitraum: {from_date.date()} → {to_date.date()}")
     print(f"═══════════════════════════════════════")
 
-    # 1. URLs holen
-    urls = get_urls_from_telegram(from_date, to_date)
+    # 1. URLs holen – drei Strategien kombiniert
+    # Strategie 1: Listing-Seiten (zuverlässigste Quelle für historische Daten)
+    urls = get_urls_from_listing(from_date, to_date)
+    
+    # Strategie 2: Telegram (ergänzend für aktuelle Artikel)
+    tg_urls = get_urls_from_telegram(from_date, to_date)
+    for u in tg_urls:
+        if u not in urls:
+            urls.append(u)
+    
+    # Strategie 3: ID-Range als letzter Fallback
     if not urls:
-        print("Telegram leer – verwende ID-Range als Fallback")
+        print("Listing + Telegram leer – verwende ID-Range als Fallback")
         urls = get_urls_by_id(from_date, to_date)
 
     urls = urls[:MAX_ARTS]
