@@ -16,8 +16,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Konfiguration ─────────────────────────────────────────────────────────────
-DAYS_BACK  = 365          # Wie viele Tage zurück scrapen
-MAX_ARTS   = 100          # Maximale Artikelanzahl pro Lauf
+DAYS_BACK  = 500          # Wie viele Tage zurück scrapen
+MAX_ARTS   = 400          # Maximale Artikelanzahl pro Lauf
 SLEEP_SEC  = 0.5         # Pause zwischen Requests
 
 BASE_URL = "https://www.polizei.bayern.de"
@@ -44,6 +44,12 @@ ANCHORS = sorted([
     ( 96662, datetime(2026, 1, 13)),
     ( 96203, datetime(2026, 1, 2)),
     ( 96156, datetime(2026, 1, 1)),
+    ( 93500, datetime(2025, 11, 1)),
+    ( 91000, datetime(2025, 9, 1)),
+    ( 88500, datetime(2025, 7, 1)),
+    ( 86000, datetime(2025, 5, 1)),
+    ( 83500, datetime(2025, 3, 1)),
+    ( 81000, datetime(2025, 1, 1)),
 ], key=lambda x: x[1])
 
 # ── Kategorisierung ───────────────────────────────────────────────────────────
