@@ -16,8 +16,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Konfiguration ─────────────────────────────────────────────────────────────
-DAYS_BACK  = 30          # Wie viele Tage zurück scrapen
-MAX_ARTS   = 80          # Maximale Artikelanzahl pro Lauf
+DAYS_BACK  = 365          # Wie viele Tage zurück scrapen
+MAX_ARTS   = 100          # Maximale Artikelanzahl pro Lauf
 SLEEP_SEC  = 0.5         # Pause zwischen Requests
 
 BASE_URL = "https://www.polizei.bayern.de"
