@@ -1,5 +1,101 @@
 [
   {
+    "date": "30.09.2026",
+    "dateSort": "2026-09-30",
+    "time": "01:00",
+    "nr": "1528",
+    "kategorie": "Einbruch",
+    "schweregrad": 2,
+    "ort": "Münchner Umland",
+    "titel": "Festnahme dreier Tatverdächtiger nach versuchtem Einbruch in einen Wohnwagen – Festgelände",
+    "volltext": "Am Mittwoch, 30.09.2026, gegen 01:00 Uhr, gelangten drei männliche Personen in einen nicht öffentlich zugänglichen Bereich hinter einem Fahrgeschäft auf dem Oktoberfest. Dort versuchten sie, gewaltsam in einen Wohnwagen einzudringen. Die beiden Bewohner befanden sich währenddessen im Wohnwagen und verständigten den Polizeinotruf 110. Als Polizeibeamte eintrafen, versuchten zwei der Tatverdächtigen zu Fuß zu flüchten. Sie konnten nach kurzer Strecke angehalten und vorläufig festgenommen werden. Der dritte Tatverdächtige versuchte sich im unmittelbaren Umfeld zu verstecken und wurde ebenfalls vorläufig festgenommen. Bei den Tatverdächtigen handelte es sich um einen 18-jährigen Deutschen sowie einen 18-jährigen Deutsch-Griechen, jeweils mit Wohnsitz in München, und einen 18-jährigen Griechen mit Wohnsitz im Landkreis Freising. Die drei Tatverdächtigen wurden anschließend zur Wiesnwache gebracht. Am Wohnwagen wurden umfangreiche Spurensicherungsmaßnahmen durchgeführt. Nach Abschluss der polizeilichen Maßnahmen wurden alle drei wieder entlassen. Die weiteren Ermittlungen werden auf der Polizeiinspektion 17 (Wiesnwache) geführt.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "23:45",
+    "nr": "1526",
+    "kategorie": "Fahndung",
+    "schweregrad": 2,
+    "ort": "Ludwigsvorstadt",
+    "titel": "Festnahme eines Taschendiebs – Ludwigsvorstadt",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 23:45 Uhr, konnten Taschendiebfahnder aus München und Lissabon einen 46-jährigen bulgarischen Staatsangehörigen ohne festen Wohnsitz in Deutschland am Goetheplatz feststellen, der offensichtlich Kontakt zu betrunkenen Wiesnbesuchern suchte. Kurze Zeit später konnten sie beobachten, wie der Bulgare einem 47-jährigen norwegischen Wiesnbesucher, der aufgrund seiner Trunkenheit am Boden lag, in die Gesäßtasche griff und versuchte, die Geldbörse herauszuziehen. Dies gelang ihm jedoch nicht. Als sich der Bulgare vom Tatort entfernen wollte, wurde er vorläufig festgenommen. Bei der Durchsuchung des 46-Jährigen konnte die EC-Karte eines 48-jährigen Deutschen aufgefunden werden. Nach derzeitigem Ermittlungsstand wurde die EC-Karte in der Nacht des 28.09.2026 entwendet. Der 48-Jährige erstattete bei der Polizeiinspektion 21 Anzeige. Er gab an, sich in der Nacht in einer Bar in der Schillerstraße aufgehalten und dort einen Mann kennengelernt zu haben, der ihm ein Getränk ausgab. Nach er davon trank, wurde ihm plötzlich schwindelig und er verlor für etwa 12 Stunden die Erinnerungen. Als er wieder zu sich kam, stellte er fest, dass mit seiner EC-Karte 5.000 Euro abgehoben worden waren. Ein Zusammenhang zwischen dieser Tat und dem oben geschilderten versuchten Taschendiebstahl wird geprüft. Da der Bulgare in Deutschland keinen festen Wohnsitz hat, wurde er in die Haftanstalt des Polizeipräsidiums München verbracht und wird einem Ermittlungsrichter zur Prüfung",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "21:25",
+    "nr": "1529",
+    "kategorie": "Sonstiges",
+    "schweregrad": 1,
+    "ort": "Unbekannt",
+    "titel": "Festnahme eines Tatverdächtigen nach einem staatsschutzfeindlichen Delikt – Festgelände",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 21:25 Uhr, zeigte ein Mann beim Verlassen des Oktoberfests im Bereich eines U-Bahnabgangs eine Grußgeste mit Bezug zum Nationalsozialismus. Dies wurde von mehreren Besuchern sowie von Polizeibeamten beobachtet. Die Polizeibeamten folgten dem Mann, sprachen ihn an und nahmen ihn vorläufig fest. Bei dem Tatverdächtigen handelte es sich um einen 27-jährigen US-Amerikaner ohne festen Wohnsitz in Deutschland. Der 27-Jährige wurde zur Wiesnwache gebracht. Im Rahmen der weiteren Ermittlungen wurden zudem Videoaufzeichnungen aus dem Bereich des U-Bahnhofs gesichert. Der 27-Jährige wurde wegen des Verwendens von Kennzeichen verfassungswidriger und terroristischer Organisationen angezeigt. Nach Abschluss der polizeilichen Maßnahmen und der Erhebung einer Sicherheitsleistung in Höhe eines mittleren vierstelligen Betrags wurde er wieder entlassen. Zudem wurde ihm ein Platzverweis für das gesamte Oktoberfestgelände bis zum Ende des Oktoberfests erteilt. Die weiteren Ermittlungen werden auf der Polizeiinspektion 17 (Wiesnwache) geführt.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "18:50",
+    "nr": "1521",
+    "kategorie": "Verkehr",
+    "schweregrad": 1,
+    "ort": "Sendling",
+    "titel": "Verkehrsunfall zwischen Pkw und Trambahn; eine Person verletzt – Sendling-Westpark",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 18:50 Uhr, fuhr ein 83-jähriger Deutscher mit Wohnsitz in München mit einem Porsche Pkw auf der Westendstraße in Richtung Tübinger Straße. An der Einmündung zur Fachnerstraße wollte der 83-Jährige wenden. Hierzu war es nötig, die mittig verlaufenden Straßenbahnschienen zu überqueren. Zeitgleich fuhr eine Straßenbahnfahrerin der Linie 18 im Gleisbereich parallel zum 83-Jährigen. Als der 83-Jährige wendete, kam es zum Zusammenstoß zwischen dem Pkw und der Straßenbahn. Der Pkw wurde auf den Gehweg geschoben und kollidierte mit einer Ampel, einem Verkehrszeichen und einem Zaun. Der 83-Jährige wurde leicht verletzt und vom Rettungsdienst in ein Krankenhaus gebracht. Die beiden Fahrzeuge wurden erheblich beschädigt und es entstand ein Gesamtschaden im sechsstelligen Bereich. Die Unfallstelle musste für über zwei Stunden komplett gesperrt werden. Es kam zu erheblichen Verkehrsbeeinträchtigungen. Die Münchner Verkehrspolizei hat die weiteren Ermittlungen übernommen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "18:30",
+    "nr": "1522",
+    "kategorie": "Körperverletzung",
+    "schweregrad": 3,
+    "ort": "Feldmoching-Hasenbergl",
+    "titel": "Größerer Polizeieinsatz aufgrund Schlägerei – Hasenbergl",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 18:30 Uhr, wurde der Polizeinotruf darüber informiert, dass es zu einer größere Auseinandersetzung zwischen mehreren Personen in der Wintersteinstraße in München gekommen sei. Aufgrund dessen begaben sich eine Vielzahl von Polizeistreifen zum Einsatzort. Dort wurden ca. 15 Personen festgestellt und kontrolliert. Die ersten Ermittlungen vor Ort ergaben, dass es aufgrund einer zunächst verbalen Streitigkeit zu einer Bedrohung mit einem Messer gekommen war, das von einem 35-jährigen Staatenlosen mit Wohnsitz in München gegenüber mehreren Personen vorgehalten wurde. Eine weitere Person, eine 46-jährige Deutsche mit Wohnsitz in München gab an, durch stumpfe Gewalt leicht verletzt worden zu sein. Da ein Großteil der vor Ort anwesenden Personen aggressiv waren und jegliche Kooperation mit der Polizei verweigerten, erfolgte die Personalienfeststellung vor Ort durch Kräfte des Münchner Unterstützungskommandos (USK). Hierbei mussten auch vereinzelt Zwangsmaßnahmen angewandt werden. Verletzt wurde hierdurch niemand. Zudem wurde im Tatortumfeld ein Baseballschläger aufgefunden. Ob dieser bei der Tat verwendet wurde, bedarf weiterer Ermittlungen. Diese werden nun wegen Bedrohung und des Verdachts der gefährlichen Körperverletzung durch die Münchner Kriminalpolizei geführt. Die angetroffenen Personen wurden nach den polizeilichen Maßnahmen wieder entlassen. An dem Einsatz waren ca. 30 Polizeikräfte beteiligt.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "18:00",
+    "nr": "1523",
+    "kategorie": "Raub",
+    "schweregrad": 2,
+    "ort": "Münchner Umland",
+    "titel": "Tödlicher Unfall bei Kartoffelernte – Kirchheim b. München",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 18:00 Uhr, wurden in Kirchheim b. München Kartoffelernte-Arbeiten durchgeführt. Hierbei hing hinter einer Zugmaschine ein Erntefahrzeug, auf welchem sich mehrere Personen befanden. Aus noch ungeklärter Ursache fiel ein 51-jähriger Deutscher mit Wohnsitz im Landkreis München von dem Erntefahrzeug und wurde von diesem überrollt. Der 51-Jährige erlitt schwerste Verletzungen und musste unter laufender Reanimation mit einem Rettungshubschrauber in ein Krankenhaus geflogen werden. Hier erlag er seinen Verletzungen. Die Münchner Verkehrspolizei hat die weiteren Ermittlungen übernommen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "17:55",
+    "nr": "1524",
+    "kategorie": "Verkehr",
+    "schweregrad": 1,
+    "ort": "Feldmoching-Hasenbergl",
+    "titel": "Verkehrsunfall zwischen Pkw und Fußgänger; eine Person verletzt; Pkw-Fahrer flüchtet – Feldmoching-Hasenbergl",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 17:55 Uhr, parkte ein 27-Jähriger mit afghanischer Staatsangehörigkeit und Wohnsitz in München einen Toyota Pkw in der Gustav-Schiefer-Straße. Anschließend stieg er aus und stand neben seinem Fahrzeug auf der Fahrbahn. Der bislang unbekannte Fahrzeugführer eines BMW Pkw fuhr an ihm vorbei. Dabei überrollte er mit dem rechten Vorderreifen beide Füße des 27-Jährigen. Nach einem kurzen Gespräch zwischen dem unbekannten Fahrerzeugführer und dem 27-Jährigen, stieg der Unbekannte wieder in den BMW ein und entfernte sich unerlaubt von der Unfallstelle. Der 27-Jährige wurde leicht verletzt. Die Münchner Verkehrspolizei hat die weiteren Ermittlungen übernommen. Zeugenaufruf: Personen, die sachdienliche Hinweise zum Unfallhergang machen können, werden gebeten, sich mit dem Unfallkommando, Tegernseer Landstr. 210, 81549 München, Tel.: (089) 6216-3322, in Verbindung zu setzen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
+    "date": "29.09.2026",
+    "dateSort": "2026-09-29",
+    "time": "14:45",
+    "nr": "1520",
+    "kategorie": "Körperverletzung",
+    "schweregrad": 3,
+    "ort": "Altstadt-Lehel",
+    "titel": "Größerer Polizeieinsatz – Altstadt",
+    "volltext": "Am Dienstag, 29.09.2026, gegen 14:45 Uhr, befand sich ein 63-Jähriger mit irakischer Staatsangehörigkeit und Wohnsitz in München sowie ein 26-Jähriger mit syrischer Staatsangehörigkeit und Wohnsitz im Landkreis Fürstenfeldbruck in einem Restaurant am Karlsplatz. Hier kam es zu einer Auseinandersetzung zwischen dem 63-Jährigen und dem 26-Jährigen, woraufhin der 63-Jährige ein Taschenmesser zog und den 26-Jährigen damit bedrohte. Daraufhin verständigten mehrere Personen den Polizeinotruf 110. Ein größerer Polizeieinsatz mit mehreren Streifen war die Folge. Die eingesetzten Polizeistreifen konnten den 63-Jährigen mit gezogenem Messer antreffen. Da er dieses nicht weglegte, zog einer der Polizeibeamten seine Schusswaffe. Daraufhin warf der Tatverdächtige das Messer in einen Eimer, blieb aber weiterhin hochgradig aggressiv. Trotz Androhung des Schlagstockeinsatzes beruhigte sich der Mann nicht, weshalb schließlich Pfefferspray eingesetzt wurde. Anschließend konnte er festgenommen werden. Der 63-Jährige wurde leicht verletzt und nach Abschluss aller polizeilichen Maßnahmen vom Rettungsdienst in ein Krankenhaus gebracht. Von dort wurde er wieder entlassen. Der 26-Jährige wurde bei dem Vorfall nicht verletzt. Das Restaurant wurde für die Dauer der polizeilichen Maßnahmen abgesperrt. Das Kommissariat 24 hat die weiteren Ermittlungen übernommen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
+  },
+  {
     "date": "28.09.2026",
     "dateSort": "2026-09-28",
     "time": "23:45",
@@ -10,6 +106,18 @@
     "titel": "Zeugenaufruf nach gefährlicher Körperverletzung – Ludwigsvorstadt-Isarvorstadt",
     "volltext": "Am Montag, 28.09.2026, gegen 23:45 Uhr, befanden sich mehrere Personen gemeinsam auf dem Oktoberfest. Außerhalb des Festgeländes, im Bereich des Bavariarings Ecke Pettenkoferstraße, geriet ihre Gruppe mit mehreren unbekannten Personen in Streit. Die bekannte Personengruppe stieg in eine Rikscha und wollte wegfahren. Ein 52-jähriger Deutscher mit Wohnsitz im Landkreis Freising stieg jedoch wieder aus der Rikscha aus und ging zu den unbekannten Personen. Der bislang unbekannte Täter schlug ihm derart kräftig mit der Faust ins Gesicht, so dass der 52-Jährige zusammenbrach und mit dem Kopf ungebremst auf dem Asphalt aufschlug. Hierbei erlitt er eine schwere Kopfverletzung. Einer seiner Begleiter, ein 21-jähriger Deutscher, ebenfalls mit Wohnsitz im Landkreis Freising, begab sich auch zu der unbekannten Personengruppe, wobei eine körperliche Auseinandersetzung begann. Hierbei erlitt der 21-Jährige einen Faustschlag ins Gesicht und wurde dadurch leicht verletzt. Die unbekannten Täter flüchteten daraufhin. Der 52-Jährige kam in ein Krankenhaus und musste noch in der Nacht notoperiert werden. Aktuell befindet er sich im Koma. Die schwere der erlittenen Verletzungen lässt sich noch nicht abschätzen. Die weiteren Ermittlungen werden vom Kommissariat 24 übernommen. Der unbekannte Täter, welcher den 52-Jährigen schwer verletzte wurde wie folgt beschrieben: Männlich, ca. 180 cm groß, dünn, dunkle Haare, sprach vermutlich französisch; graues bzw. hellblaues Hemd Zeugenaufruf: Wer hat im an",
     "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html"
+  },
+  {
+    "date": "28.09.2026",
+    "dateSort": "2026-09-28",
+    "time": "23:00",
+    "nr": "1525",
+    "kategorie": "Einbruch",
+    "schweregrad": 2,
+    "ort": "Unbekannt",
+    "titel": "Einbruch in eine Lagerhalle – Höhenkirchen-Siegertsbrunn",
+    "volltext": "Im Zeitraum von Montag, 28.09.2026, 23:00 Uhr, bis Dienstag, 29.09.2026, 03:00 Uhr, verschafften sich ein oder mehrere bislang unbekannte Täter auf bislang unbekannte Weise gewaltsam Zutritt zu einem Lagerkomplex in Höhenkirchen-Siegertsbrunn. Anschließend durchsuchten die Täter die dortigen Räumlichkeiten und entwendeten eine noch unbekannte Anzahl an hochwertigen Fahrradfedergabeln im Gesamtwert eines sechsstelligen Eurobetrages. Anschließend konnten die Täter in unbekannte Richtung flüchten. Vor Ort wurden umfangreiche Spurensicherungsmaßnahmen durchgeführt. Das Kommissariat 52 hat die weiteren Ermittlungen übernommen. Zeugenaufruf: Wer hat im angegebenen Zeitraum im Bereich der Wächterhofstraße und Ottobrunnner Straße in Höhenkirchen-Siegertsbrunn Wahrnehmungen gemacht, die im Zusammenhang mit diesem Vorfall stehen könnten? Personen, die sachdienliche Hinweise geben können, werden gebeten, sich mit dem Polizeipräsidium München, Kommissariat 52, Tel. 089 2910-0, oder jeder anderen Polizeidienststelle in Verbindung zu setzen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
   },
   {
     "date": "28.09.2026",
@@ -670,6 +778,18 @@
     "titel": "Verkehrsunfall zwischen Pkw und Leichtkraftrad; eine Person verletzt – Grünwald",
     "volltext": "Am Mittwoch, 23.09.2026, gegen 16:40 Uhr, fuhr ein 23-jähriger Deutscher mit Wohnsitz in München mit einem Smart Pkw die Straße am Waldweg  in Richtung Südliche Münchner Straße. Zeitgleich befuhr ein 63-jähriger Deutscher mit Wohnsitz in München mit einem Yamaha Leichtkraftrad die Südliche Münchner Straße in Richtung nördliche Münchner Straße. Als der 23-Jährige an der Einmündung zur Südlichen Münchner Straße nach links abbiegen wollte, kam es zum im Einmündungsbereich zu einem Zusammenstoß mit dem 63-Jährigen. Der 63-Jährige stürzte zu Boden und wurde schwer verletzt. Er musste vom Rettungsdienst in ein Krankenhaus gebracht werden. Die Südliche Münchner Straße musste ca. 45 Minuten gesperrt werden. Hierdurch kam es zu Verkehrsbehinderungen. Die Münchner Verkehrspolizei hat die weiteren Ermittlungen übernommen.",
     "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109001/index.html"
+  },
+  {
+    "date": "23.09.2026",
+    "dateSort": "2026-09-23",
+    "time": "14:10",
+    "nr": "1527",
+    "kategorie": "Verkehr",
+    "schweregrad": 1,
+    "ort": "Unbekannt",
+    "titel": "Unfallgeschehen; eine Person verstorben – Festgelände",
+    "volltext": "Am Mittwoch, 23.09.2026, gegen 14:10 Uhr, befand sich eine über 90-jährige deutsche Rollstuhlfahrerin mit Wohnsitz in München in Begleitung auf dem Oktoberfest im Bereich der Oidn Wiesn. Vor einem Festzelt wollte sie ein Pferd eines dort befindlichen Kutschengespanns am Kopf streicheln. Hierbei verfing sich ein Teil des Pferdegeschirrs am Rollstuhl. Als das Pferd daraufhin den Kopf anhob, wurde der Rollstuhl umgestoßen und die Frau stürzte zu Boden. Nachdem ihr wieder in den Rollstuhl geholfen worden war, setzte sie ihren Weg zunächst fort. Kurze Zeit später verschlechterte sich jedoch ihr Gesundheitszustand. Sie wurde daraufhin durch den hinzugezogenen Sanitätsdienst der Aicher Ambulanz auf die Sanitätswache des Oktoberfestes gebracht. Nach einer medizinischen Untersuchung des Ärzteteams vor Ort musste ein Abtransport in eine Münchner Klinik veranlasst werden. Am Dienstag, 29.09.2026, verstarb die über 90-Jährige im Krankenhaus. Die Polizei wurde über den Vorfall erst nach dem Ableben der über 90-Jährigen informiert. Ob ein Fremdverschulden vorliegt, ist aktuell Gegenstand der laufenden Ermittlungen der Münchner Verkehrspolizei.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/109285/index.html"
   },
   {
     "date": "23.09.2026",
