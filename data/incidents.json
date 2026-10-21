@@ -1,5 +1,41 @@
 [
   {
+    "date": "21.10.2026",
+    "dateSort": "2026-10-21",
+    "time": "01:00",
+    "nr": "1658",
+    "kategorie": "Branddelikt",
+    "schweregrad": 3,
+    "ort": "Münchner Umland",
+    "titel": "Brand in einem Hotel – Aschheim",
+    "volltext": "Am Mittwoch, 21.10.2026, gegen 01:00 Uhr, kam es in einem Büro im Erdgeschoss eines Hotels in Aschheim zu einem Brand. Daraufhin wurden Polizei und Feuerwehr verständigt. Noch vor dem Eintreffen der Einsatzkräfte verließen über 130 Hotelgäste eigenständig das Gebäude. Die Feuerwehr konnte den Brand ablöschen und suchte anschließend das Gebäude nach weiteren Personen ab. Aufgrund der Rauchentwicklung war eine Rückkehr in die Hotelzimmer zunächst nicht möglich. Die betroffenen Gäste mussten deshalb in umliegenden Hotels untergebracht werden. Bei dem Brand wurde niemand verletzt. Nach ersten Schätzungen entstand ein Sachschaden in Höhe von etwa 300.000 Euro. Noch in der Nacht übernahmen die Brandermittler des Kommissariats 13 der Münchner Kriminalpolizei die Ermittlungen vor Ort. Dabei ergaben sich Hinweise auf eine vorsätzliche Brandlegung. Die weiteren Ermittlungen dauern an. Zeugenaufruf: Wer hat im angegebenen Zeitraum im Bereich der Otto-Hahn-Straße, Bahnhofstraße, Erdinger Landstraße und Dywidagstraße in Aschheim verdächtige Wahrnehmungen gemacht, die im Zusammenhang mit dem Brand stehen könnten? Personen, die hierzu sachdienliche Angaben machen können, werden gebeten, sich mit dem Polizeipräsidium München, Kommissariat 13, Tel. 089 2910-0, oder jeder anderen Polizeidienststelle in Verbindung zu setzen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/110238/index.html"
+  },
+  {
+    "date": "19.10.2026",
+    "dateSort": "2026-10-19",
+    "time": "20:40",
+    "nr": "1654",
+    "kategorie": "Raub",
+    "schweregrad": 2,
+    "ort": "Moosach",
+    "titel": "Festnahme eines Tatverdächtigen nach schwerer Brandstiftung – Moosach",
+    "volltext": "Am Montag, 19.10.2026, gegen 20:40 Uhr, bemerkten mehrere Passanten einen lauten Knall und anschließend eine starke Rauchentwicklung aus einer Tiefgarage eines Mehrfamilienhauses im Bereich der Hanauer Straße. Daraufhin verständigten sie den Polizeinotruf 110. Da mehrere Zeugen von einem Mann berichteten, der kurz vor dem Knall die Tiefgarage verlassen und sich anschließend fluchtartig entfernt hatte, wurden direkt mehrere Einsatzkräfte zur Einsatzörtlichkeit geschickt. Aufgrund dieser Mitteilungen ergab sich frühzeitig der Verdacht einer Brandstiftung. Sofort eingeleitete Fahndungsmaßnahmen, an denen auch ein Polizeihubschrauber beteiligt war, brachten zunächst keine weiteren Hinweise auf den möglichen Tatverdächtigen. Die ebenfalls verständigte Feuerwehr konnte den Brand löschen. Dabei stellte sich heraus, dass ein Pkw in der Tiefgarage vollständig ausgebrannt war. Darüber hinaus wurden etwa zehn weitere dort abgestellte Fahrzeuge sowie die Bausubstanz der Tiefgarage teilweise erheblich beschädigt. Insgesamt wird der entstandene Sachschaden auf einen mittleren sechsstelligen Betrag geschätzt. Im Zuge der weiteren Ermittlungen ergaben sich Hinweise auf einen Tatverdächtigen. Bei ihm handelte es sich um einen 34-jährigen Ungarn ohne festen Wohnsitz in Deutschland. Im weiteren Verlauf konnte der Aufenthaltsort des 34-Jährigen ermittelt werden. Polizeibeamte trafen ihn dort an und nahmen ihn vorläufig fest. Es wurde gegen ihn ein Ermittlungsverfahren wegen Brandstiftung eröffne",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/110189/index.html"
+  },
+  {
+    "date": "19.10.2026",
+    "dateSort": "2026-10-19",
+    "time": "18:30",
+    "nr": "1655",
+    "kategorie": "Verkehr",
+    "schweregrad": 1,
+    "ort": "Münchner Umland",
+    "titel": "Verkehrsunfall eines Kraftradfahrers; eine Person verletzt – Hohenbrunn",
+    "volltext": "Am Montag, 19.10.2026, gegen 18:30 Uhr, fuhr ein 50-jähriger Deutscher mit Wohnsitz im Landkreis Rosenheim mit einem Ducati Kraftrad auf der Staatsstraße 2078 von Ottobrunn kommend in Richtung Höhenkirchen. Auf Höhe der Einmündung zur Taufkirchener Straße befand sich eine Holzpalette auf der Fahrbahn. Der 50-Jährige überfuhr diese, verlor daraufhin die Kontrolle über sein Kraftrad und stürzte. Dabei wurde der 50-Jährige schwer verletzt und musste vom Rettungsdienst in ein Krankenhaus gebracht werden. Am Kraftrad entstand ein Sachschaden in Höhe eines niedrigen vierstelligen Betrages. Nach derzeitigen Erkenntnissen wird davon ausgegangen, dass ein bislang unbekannter Fahrzeugführer die Holzpalette an seinem Fahrzeug nicht ausreichend sicherte und diese verlor. Die Münchner Verkehrspolizei hat die weiteren Ermittlungen übernommen. Zeugenaufruf: Personen, die sachdienliche Hinweise zum Unfallhergang selbst oder dem Ursprung der Holzpalette machen können, werden gebeten sich mit dem Unfallkommando, Tegernseer Landstraße 210, 81549 München, Tel.: (089) 6216-3322, in Verbindung zu setzen.",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/110189/index.html"
+  },
+  {
     "date": "18.10.2026",
     "dateSort": "2026-10-18",
     "time": "15:30",
@@ -118,6 +154,18 @@
     "titel": "Täterfestnahmen nach bewaffnetem Raub – Maxvorstadt",
     "volltext": "Am Freitag, 16.10.2026, gegen 23:00 Uhr, befand sich ein 23-jähriger Deutscher mit Wohnsitz in München auf dem Gehweg der Georgenstraße in der Maxvorstadt. Neben ihm hielt unvermittelt ein Pkw, aus welchem drei unbekannte Männer, die maskiert waren, ausstiegen und anschließend körperlich auf den 23-Jährigen einwirkten. Hierbei hielten die drei unbekannten Männer zudem eine Waffe und ein Elektroimpulsgerät vor. Im weiteren Verlauf entrissen die unbekannten Täter dem 23-Jährigen dessen Bauchtasche, stiegen in das Fahrzeug ein und flüchteten. Mehrere Zeugen konnten die Tat vor Ort beobachten und verständigten den Polizeinotruf 110. Aufgrund dessen wurde eine Vielzahl an Streifen zur sofortigen Fahndung nach den unbekannten Tätern und dem geflüchteten Fahrzeug in die Maxvorstadt verlegt. Gegen 23:08 Uhr konnte das Fahrzeug im Bereich der Schleißheimer Straße / Petuelring angetroffen und gestoppt werden. Die drei unbekannten Täter wurden widerstandslos festgenommen. Bei ihnen handelt es sich um einen 23-Jährigen mit weißrussischer Staatsangehörigkeit ohne festen Wohnsitz in Deutschland, einem 23-jährigen Deutschen mit Wohnsitz im oberbayrischen Landkreis Neuburg-Schrobenhausen, und einem 19-Jährigen mit ukrainischer Staatsangehörigkeit ohne festen Wohnsitz in Deutschland. Im Fahrzeug konnten das Elektroimpulsgerät, eine PTB-Waffe, Kleidungsstücke zur Maskierung und die zuvor entwendete Bauchtasche des 23-Jährigen aufgefunden werden. Alle Gegenstände wurden sichergestellt. Der Pkw ",
     "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/110080/index.html"
+  },
+  {
+    "date": "16.10.2026",
+    "dateSort": "2026-10-16",
+    "time": "22:00",
+    "nr": "1656",
+    "kategorie": "Vandalismus",
+    "schweregrad": 1,
+    "ort": "Schwabing",
+    "titel": "Mehrere Sachbeschädigungen mit Fußballbezug – Stadtgebiet München",
+    "volltext": "Im Zeitraum von Freitag, 16.10.2026, 22:00 Uhr, bis Samstag, 17.10.2026, 07:00 Uhr, zog eine Personengruppe eines in München ansässigen Fußballvereins durch Schwabing. Dabei wurden zwischen dem Wedekindplatz und der Feilitzschstraße an zahlreichen Örtlichkeiten, unter anderem an Hausfassaden, Graffiti mit Fußballbezug angebracht. Am Samstag, 17.10.2026, gegen 20:30 Uhr, zog erneut eine größere Personengruppe von Fußballfans durch die Münchner Innenstadt. Dabei wurden mehrfach pyrotechnische Gegenstände abgebrannt. Zudem kam es entlang der Wegstrecke (Odeonsplatz, Isartor, Viktualienmarkt, Sendlinger Tor, Marienplatz) zu zahlreichen Sachbeschädigungen durch Graffiti. Im weiteren Verlauf nutzten die Personen mehrere U-Bahnzüge vom Marienplatz in Richtung Kieferngarten, die sowohl im Innen- als auch im Außenbereich mit Aufklebern versehen und mit Graffiti besprüht wurden. Die Sachbeschädigungen ereigneten sich im Zeitraum bis Sonntag, 18.10.2026, gegen 00:30 Uhr. Nach derzeitigem Ermittlungsstand entstand durch die Vorfälle ein Gesamtsachschaden im mittleren fünfstelligen Bereich. Die genaue Anzahl der beschädigten Objekte sowie die endgültige Schadenshöhe sind derzeit Gegenstand der weiteren polizeilichen Ermittlungen. Das Kommissariat 23 hat die weiteren Ermittlungen übernommen. Zeugenaufruf: Wer hat im angegebenen Zeitraum Wahrnehmungen gemacht, die im Zusammenhang mit diesem Vorfall stehen könnten? Personen, die sachdienliche Hinweise geben können, werden gebeten, sich mit d",
+    "link": "https://polizei.bayern.de/aktuelles/pressemitteilungen/110189/index.html"
   },
   {
     "date": "16.10.2026",
